@@ -26,7 +26,7 @@
         <profile>
             <id>pro</id>
             <properties>
-                <imageName>registry.cn-hangzhou.aliyuncs.com/xing/xingweb/${artifactId}:1.0.4</imageName>
+                <imageName>registry.cn-hangzhou.aliyuncs.com/xing/xingweb/${artifactId}:latest</imageName>
             </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>
