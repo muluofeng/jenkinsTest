@@ -54,7 +54,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.4.14</version>
                 <configuration>
-                    <imageName>jenkins:1.0.0</imageName>
+                    <imageName>${imageName}</imageName>
                     <dockerDirectory>${project.basedir}</dockerDirectory>
                     <resources>
                         <resource>
