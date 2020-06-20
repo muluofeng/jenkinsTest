@@ -22,6 +22,17 @@
         </dependency>
     </dependencies>
 
+    <profiles>
+        <profile>
+            <id>pro</id>
+            <properties>
+                <imageName>${artifactId}:1.0.0</imageName>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+    </profiles>
 
     <build>
         <finalName>${artifactId}</finalName>

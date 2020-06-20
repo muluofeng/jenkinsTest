@@ -11,7 +11,7 @@ ENV APP_LOG_PATH=/data/logs
 RUN mkdir -p ${APP_LOG_PATH}
 
 #COPY
-COPY  ./target/jenkins.jar.jar /root
+COPY  ./target/jenkins.jar /root
 
 #EXPOSE 服务端口
 
