@@ -19,4 +19,4 @@ EXPOSE 8081
 
 #ENTRYPOINT 启动命令
 
-ENTRYPOINT java -jar  /root/jenkins.jar.jar
+ENTRYPOINT java -jar  /root/jenkins.jar
