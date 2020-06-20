@@ -18,6 +18,7 @@ public class IndexController {
         List<Object> objects = new ArrayList<>();
         objects.add("a");
         objects.add("b");
+        objects.add("ccc");
 
         return objects;
     }
