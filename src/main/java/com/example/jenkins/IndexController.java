@@ -19,6 +19,7 @@ public class IndexController {
         objects.add("a");
         objects.add("b");
         objects.add("ccc");
+        objects.add("d");
 
         return objects;
     }
