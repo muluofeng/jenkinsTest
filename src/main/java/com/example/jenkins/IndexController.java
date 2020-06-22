@@ -20,6 +20,7 @@ public class IndexController {
         objects.add("b");
         objects.add("ccc");
         objects.add("d");
+        objects.add("f");
 
         return objects;
     }
