@@ -21,6 +21,7 @@ public class IndexController {
         objects.add("ccc");
         objects.add("d");
         objects.add("f");
+        objects.add("gitlab");
 
         return objects;
     }
